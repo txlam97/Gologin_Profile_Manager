@@ -11,17 +11,6 @@ GoLogin Profile Creator is a Windows GUI tool that automates the creation and ma
 - **Profile Management**: View, edit, and delete profiles in a user-friendly table interface.
 - **Orbita Browser Integration**: Automatically downloads and manages the Orbita Browser executable.
 
-## Prerequisites
-
-To use the .exe or source code, ensure the following:
-
-- **Windows OS**: The tool is designed for Windows due to Orbita Browser compatibility.
-- **GoLogin API Token**: Obtain a token from your [GoLogin account](https://app.gologin.com/).
-- **Internet Connection**: Required for downloading Orbita Browser and making API calls.
-- **For Source Code Users**:
-  - Python 3.8+.
-  - Dependencies listed in `requirements.txt`.
-
 ## Installation
 
 ### Option 1: Using the Executable (.exe)
@@ -36,38 +25,12 @@ To use the .exe or source code, ensure the following:
 
 3. **Prepare GoLogin Token**:
    - Create a file named `token.txt` in the same directory as the `.exe`.
-   - Paste your GoLogin API token into `token.txt`.
-
-### Option 2: Using the Source Code
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/gologin-profile-creator.git
-   cd gologin-profile-creator
-   ```
-
-2. **Install Dependencies**:
-   Create a virtual environment (recommended) and install required packages:
-   ```bash
-   python -m venv venv
-   source venv/Scripts/activate  # On Windows
-   pip install -r requirements.txt
-   ```
-
-3. **Prepare GoLogin Token**:
-   - Create a `token.txt` file in the project root.
-   - Paste your GoLogin API token into `token.txt`.
-
-4. **Run the Tool**:
-   ```bash
-   python main.py
-   ```
+   - Paste your GoLogin API token into `token.txt`. 
 
 ## Usage
 
 1. **Launch the Tool**:
    - For .exe: Double-click the `.exe` file.
-   - For source: Run `python main.py`.
    - The tool will download Orbita Browser to the `browsers` directory if not present.
 
 2. **Configure Settings**:
@@ -105,67 +68,3 @@ To use the .exe or source code, ensure the following:
 5. Double-click a profile ID to launch it in Orbita Browser (headless or visible).
 6. Edit "Note" or toggle proxy as needed.
 
-## Creating the Executable
-
-To build your own .exe (for developers):
-
-1. Install `PyInstaller`:
-   ```bash
-   pip install pyinstaller
-   ```
-
-2. Run:
-   ```bash
-   pyinstaller --onefile --windowed main.py
-   ```
-
-3. Find the .exe in the `dist` folder.
-4. Ensure `token.txt`, `profiles`, and `browsers` are in the same directory as the .exe when distributing.
-
-## Troubleshooting
-
-- **Orbita Browser Download Fails**:
-  - Ensure internet access and check `https://orbita-browser-windows.gologin.com/orbita-browser-latest.zip`.
-  - Verify write permissions in the `browsers` directory.
-- **API Token Errors**:
-  - Confirm the token in `token.txt` or GUI is valid and not expired.
-- **Profile Launch Fails**:
-  - Check that the Chrome version in the table matches the Orbita Browser version.
-  - Ensure the profile folder (`profiles/gologin_<profile_id>`) exists.
-- **Proxy Issues**:
-  - Verify custom proxy format (`IP:Port:User:Pass`).
-  - Test proxy functionality independently.
-- **Headless Mode Issues**:
-  - Confirm "Run in Headless Mode" setting matches desired behavior.
-  - Close conflicting browser instances.
-- **Timeout Issues**:
-  - Increase timeout (e.g., to 5 seconds) if profiles fail to initialize.
-
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a branch (`git checkout -b feature/your-feature`).
-3. Commit changes (`git commit -m "Add your feature"`).
-4. Push (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
-Ensure code follows style guidelines and includes tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
-
-## Acknowledgments
-
-- Built with [PyQt5](https://www.riverbankcomputing.com/software/pyqt/).
-- Uses [GoLogin API](https://gologin.com/).
-- Powered by [Orbita Browser](https://gologin.com/orbita-browser).
-
-## Contact
-
-For issues or suggestions, open an issue on the [GitHub repository](https://github.com/yourusername/gologin-profile-creator/issues).
-
----
-*Note*: Replace `yourusername` with your GitHub username before publishing.
