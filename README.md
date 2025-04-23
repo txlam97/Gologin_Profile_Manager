@@ -44,16 +44,42 @@ Profiles are stored in the profiles directory as gologin_<profile_id>.
 A profiles.csv file maintains the profile data for persistence.
 
 
-
 Example Workflow
 
+
+
+
+
 Enter your GoLogin token in the GUI.
+
+
+
 Set "Number of profiles to create" to 5.
+
+
+
 Select "us" as the proxy region or input a custom proxy.
-Check "Run in Headless Mode" and set timeout to 3 seconds.
+
+
+
+Ensure "Run in Headless Mode" is checked for headless operation, or uncheck for visible mode.
+
+
+
+Set "Timeout" to 3 seconds.
+
+
+
 Click "Create Profile(s)" to generate 5 profiles.
+
+
+
 Double-click a profile ID to launch it in Orbita Browser (headless or visible).
+
+
+
 Edit the "Note" field or toggle the proxy checkbox as needed.
+
 
 Troubleshooting
 
