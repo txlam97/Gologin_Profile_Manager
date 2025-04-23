@@ -1,6 +1,6 @@
-# GoLogin Profile Creator
+# GoLogin Offline Profile Manager
 
-GoLogin Profile Creator is a Windows GUI tool that automates the creation and management of browser profiles using the GoLogin API and Orbita Browser. It allows users to generate multiple profiles with randomized fingerprints, configure proxies, and launch profiles in headless or visible mode. The tool is available as a standalone executable (.exe) for easy use or as source code for developers.
+GoLogin Offline Profile Manager is a Windows GUI tool that automates the creation and management of browser profiles using the GoLogin API and Orbita Browser. It allows users to generate multiple profiles with randomized fingerprints, configure proxies, and launch profiles in headless or visible mode. The tool is available as a standalone executable (.exe) for easy use or as source code for developers.
 
 ## Features
 
@@ -11,12 +11,9 @@ GoLogin Profile Creator is a Windows GUI tool that automates the creation and ma
 - **Profile Management**: View, edit, and delete profiles in a user-friendly table interface.
 - **Orbita Browser Integration**: Automatically downloads and manages the Orbita Browser executable.
 
-## Installation
-
-### Option 1: Using the Executable (.exe)
-
+## Usage
 1. **Download the Latest Release**:
-   - Visit the [Releases](https://github.com/yourusername/gologin-profile-creator/releases) page on GitHub.
+   - Visit the [Releases](https://github.com/txlam97/gologin-profile-manager/releases) page on GitHub.
    - Download the latest `.exe` file (e.g., `GoLoginProfileCreator-vX.X.X.exe`).
 
 2. **Run the Executable**:
@@ -26,12 +23,6 @@ GoLogin Profile Creator is a Windows GUI tool that automates the creation and ma
 3. **Prepare GoLogin Token**:
    - Create a file named `token.txt` in the same directory as the `.exe`.
    - Paste your GoLogin API token into `token.txt`. 
-
-## Usage
-
-1. **Launch the Tool**:
-   - For .exe: Double-click the `.exe` file.
-   - The tool will download Orbita Browser to the `browsers` directory if not present.
 
 2. **Configure Settings**:
    - **GoLogin Token**: Verify or enter your API token in the "GoLogin Token" field.
