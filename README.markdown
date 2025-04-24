@@ -13,7 +13,7 @@ GoLogin Profile Manager is a Windows GUI tool that automates the creation and ma
 
 ## Usage
 1. **Download the Latest Release**:
-   - Visit the [Releases]([https://github.com/txlam97/gologin-profile-manager/releases](https://github.com/txlam97/Gologin_Profile_Manager/releases/tag/1.0.0.1)) page on GitHub.
+   - Visit the [[Releases]([https://github.com/txlam97/gologin-profile-manager/releases](https://github.com/txlam97/Gologin_Profile_Manager/releases/tag/1.0.0.1))](https://github.com/txlam97/Gologin_Profile_Manager/releases/tag/1.0.0.1) page on GitHub.
    - Download the GoLoginProfileCreator.zip then extract them   
 
 2. **Run the Executable**:
