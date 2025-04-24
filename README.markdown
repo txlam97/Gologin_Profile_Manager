@@ -14,15 +14,15 @@ GoLogin Profile Manager is a Windows GUI tool that automates the creation and ma
 ## Usage
 1. **Download the Latest Release**:
    - Visit the [Releases](https://github.com/txlam97/gologin-profile-manager/releases) page on GitHub.
-   - Download the latest `.exe` file (e.g., `GoLoginProfileCreator-vX.X.X.exe`).
+   - Download the GoLoginProfileCreator.zip then extract them   
 
 2. **Run the Executable**:
    - Double-click the `.exe` file to launch the tool.
    - The tool will create a `browsers` folder in the same directory to download Orbita Browser if needed.
-
+   
 3. **Prepare GoLogin Token**:
-   - Create a file named `token.txt` in the same directory as the `.exe`.
-   - Paste your GoLogin API token into `token.txt`. 
+   - Go to gologin.com, register any account to get API key.
+   - Paste your GoLogin API token into textbox (or paste value API into a file named `token.txt` in the same directory as the `.exe`)
 
 2. **Configure Settings**:
    - **GoLogin Token**: Verify or enter your API token in the "GoLogin Token" field.
