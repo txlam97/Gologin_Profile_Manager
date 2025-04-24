@@ -1,6 +1,7 @@
 # GoLogin Profile Manager
 
 GoLogin Profile Manager is a Windows GUI tool that automates the creation and management of browser profiles using the GoLogin API and Orbita Browser. It allows users to generate multiple profiles with randomized fingerprints, configure proxies, and launch profiles in headless or visible mode. The tool is available as a standalone executable (.exe) for easy use or as source code for developers.
+![Chrome Profile Manager](https://github.com/txlam97/Gologin_Profile_Manager/blob/main/pythonw_O0Zaz0w94p.png)?raw=true)
 
 ## Features
 - **Automated Update Browser**: Automatically update to the latest Orbita version, create profiles with the newest version, and old profiles will run with their corresponding versions.
@@ -49,6 +50,8 @@ GoLogin Profile Manager is a Windows GUI tool that automates the creation and ma
 5. **Profile Storage**:
    - Profiles are saved in the `profiles` directory as `gologin_<profile_id>`.
    - Profile data is stored in `profiles.csv` for persistence.
+
+![Chrome Profile Manager](https://github.com/txlam97/Gologin_Profile_Manager/blob/main/chrome_g8mlGxAEJQ.png?raw=true)
 
 ## Example Workflow
 
