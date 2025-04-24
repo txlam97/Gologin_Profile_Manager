@@ -3,7 +3,7 @@
 GoLogin Profile Manager is a Windows GUI tool that automates the creation and management of browser profiles using the GoLogin API and Orbita Browser. It allows users to generate multiple profiles with randomized fingerprints, configure proxies, and launch profiles in headless or visible mode. The tool is available as a standalone executable (.exe) for easy use or as source code for developers.
 
 ## Features
-
+- **Automated Update Browser**: Automatically update to the latest Orbita version, create profiles with the newest version, and old profiles will run with their corresponding versions.
 - **Automated Profile Creation**: Generate multiple GoLogin profiles with randomized browser fingerprints.
 - **Proxy Support**: Use free proxies (US/UK) or custom proxies (IP:Port:User:Pass).
 - **Headless Mode**: Run profiles in headless or visible mode (default: headless, enabled via checkbox).
@@ -29,7 +29,7 @@ GoLogin Profile Manager is a Windows GUI tool that automates the creation and ma
    - **Number of Profiles**: Specify how many profiles to create (1–9999).
    - **Proxy Settings**:
      - Select a free proxy region (US, UK, or NONE) from the dropdown.
-     - Or enter a custom proxy in the format `IP:Port:User:Pass`.
+     - Or enter a custom proxy in the format `IP:Port:User:Pass`. (RECOMMENDED)
    - **Headless Mode**: Check/uncheck "Run in Headless Mode" (default: checked). Checked means profiles run in headless mode; unchecked means visible mode.
    - **Timeout**: Enter timeout duration in seconds (default: 2) in the "Timeout" textbox. This sets the delay between starting and stopping profiles during creation.
 
