@@ -42,7 +42,7 @@ GoLogin Profile Manager is a Windows GUI tool that automates the creation and ma
 4. **Manage Profiles**:
    - View profiles in the table, showing:
      - ID, Proxy Region, Note, Profile Name, Profile ID, Proxy Status, Proxy Info, Chrome Version.
-   - **Double-click** a profile’s ID to launch it in Orbita Browser.
+   - **Double-click** ID coummn (first column) to launch it in Orbita Browser.
    - **Edit** Note, Profile Name, Proxy Info, or Chrome Version in the table.
    - **Right-click** a profile to delete its folder and data.
    - Toggle proxy status using the "Proxy" column checkbox.
